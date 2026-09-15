@@ -83,16 +83,38 @@ def calc_duration_minutes(start: time, end: time) -> int:
 # Загрузка заявок
 # ---------------------------------------------------------------------------
 
-def load_requests(csv_path: str | Path) -> list[Request]:
+ACTIVE_STATUSES = {
+    "Не отправлена",
+    "Отправлена",
+    "В пути",
+    "В работе",
+    "Просрочена",
+}
+
+
+def estimate_work_minutes(hd_type: str, window_minutes: int) -> int:
+    """Длительность работ ≠ длина окна. Оценка по типу HD, не больше окна-10."""
+    hd = (hd_type or "").strip()
+    if "Авария" in hd:
+        base = 80
+    elif "подключен" in hd.lower() or "Конвергенция" in hd:
+        base = 70
+    elif "Дозаказ" in hd:
+        base = 50
+    elif "Переключение" in hd:
+        base = 55
+    else:
+        base = 45
+    return max(20, min(base, max(20, window_minutes - 10)))
+
+
+def load_requests(csv_path: str | Path, only_active: bool = True) -> list[Request]:
     """
     Читает CSV и возвращает список Request.
 
     Ожидаемые колонки:
-    - Заявка
-    - Тип заявки HD
-    - Начало
-    - Окончание
-    - Адрес
+    - Заявка, Тип заявки HD, Начало, Окончание, Адрес
+    - опционально: Статус BK, Подключение, Гигабитное подключение
     """
     path = Path(csv_path)
     requests: list[Request] = []
@@ -106,25 +128,38 @@ def load_requests(csv_path: str | Path) -> list[Request]:
                 if not raw_id:
                     continue
 
-                window_start = parse_time(row["Начало"])
-                window_end = parse_time(row["Окончание"])
-                duration = calc_duration_minutes(window_start, window_end)
-
-                if duration <= 0:
+                status = (row.get("Статус BK") or "").strip()
+                if only_active and status and status not in ACTIVE_STATUSES:
                     continue
 
+                window_start = parse_time(row["Начало"])
+                window_end = parse_time(row["Окончание"])
+                window_min = calc_duration_minutes(window_start, window_end)
+                if window_min <= 0:
+                    continue
+
+                hd = row.get("Тип заявки HD", "")
+                duration = estimate_work_minutes(hd, window_min)
                 address = (row.get("Адрес") or "").strip() or None
+
+                conn = (row.get("Подключение") or "").strip()
+                gigabit = (row.get("Гигабитное подключение") or "").strip()
+                vehicle = None
+                if conn in ("FMC", "FTTB") or gigabit == "Да":
+                    vehicle = VehicleType.CAR
+
+                priority = Priority.URGENT if status == "Просрочена" else Priority.NORMAL
 
                 req = Request(
                     id=raw_id,
                     address=address,
-                    coordinates=None,  # геокодер будет позже
+                    coordinates=None,
                     duration_minutes=duration,
                     window_start=window_start,
                     window_end=window_end,
-                    priority=Priority.NORMAL,
-                    required_skill=map_skill(row.get("Тип заявки HD", "")),
-                    required_vehicle_type=None,
+                    priority=priority,
+                    required_skill=map_skill(hd),
+                    required_vehicle_type=vehicle,
                 )
                 requests.append(req)
 
