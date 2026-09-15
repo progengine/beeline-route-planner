@@ -1,9 +1,5 @@
 fastapi>=0.115
 uvicorn[standard]>=0.30
 pydantic>=2.7
-ortools>=9.10
-
-# для упрощённого MVP-интерфейса (можно заменить на React+Leaflet позже)
-streamlit>=1.38
-folium>=0.17
-streamlit-folium>=0.23
+python-multipart>=0.0.12
+# ortools>=9.10  # опционально: точный VRPTW, если доступен pip-пакет

@@ -1,0 +1,847 @@
+{
+  "meta": {
+    "source": "Beeline BK CSV 17.08.2026",
+    "note": "Активные статусы. Координаты — Nominatim (OpenStreetMap), точность до дома/корпуса. Все 24 адреса геокодированы.",
+    "day": "17 августа 2026",
+    "active_count": 24,
+    "geocoder": "Nominatim OSM",
+    "excluded_completed": 36,
+    "excluded_cancelled": 6
+  },
+  "engineers": [
+    {
+      "id": "соколов",
+      "name": "Соколов (бригада)",
+      "start_address": "База Таганский",
+      "start_coordinates": {
+        "lat": 55.741774,
+        "lon": 37.656908
+      },
+      "shift_start": "10:00",
+      "shift_end": "22:00",
+      "skills": [
+        "local_works",
+        "connection_and_orders",
+        "emergency_works"
+      ],
+      "vehicle_type": "car",
+      "available": true
+    },
+    {
+      "id": "мельников",
+      "name": "Мельников (бригада)",
+      "start_address": "База Текстильщики",
+      "start_coordinates": {
+        "lat": 55.701497,
+        "lon": 37.7358
+      },
+      "shift_start": "10:00",
+      "shift_end": "22:00",
+      "skills": [
+        "local_works",
+        "connection_and_orders"
+      ],
+      "vehicle_type": "car",
+      "available": true
+    },
+    {
+      "id": "матвеев",
+      "name": "Матвеев (бригада)",
+      "start_address": "База Рязанский",
+      "start_coordinates": {
+        "lat": 55.720455,
+        "lon": 37.786255
+      },
+      "shift_start": "10:00",
+      "shift_end": "22:00",
+      "skills": [
+        "local_works",
+        "connection_and_orders"
+      ],
+      "vehicle_type": "car",
+      "available": true
+    },
+    {
+      "id": "попов",
+      "name": "Попов (бригада)",
+      "start_address": "База Кузьминки",
+      "start_coordinates": {
+        "lat": 55.716471,
+        "lon": 37.766522
+      },
+      "shift_start": "10:00",
+      "shift_end": "22:00",
+      "skills": [
+        "local_works",
+        "connection_and_orders",
+        "emergency_works"
+      ],
+      "vehicle_type": "car",
+      "available": true
+    },
+    {
+      "id": "арташкин",
+      "name": "Арташкин (бригада)",
+      "start_address": "База Кузьминки Юг",
+      "start_coordinates": {
+        "lat": 55.699118,
+        "lon": 37.776604
+      },
+      "shift_start": "10:00",
+      "shift_end": "22:00",
+      "skills": [
+        "local_works",
+        "connection_and_orders"
+      ],
+      "vehicle_type": "car",
+      "available": true
+    },
+    {
+      "id": "комарь",
+      "name": "Комарь (бригада)",
+      "start_address": "База Рязанский Запад",
+      "start_coordinates": {
+        "lat": 55.723323,
+        "lon": 37.790512
+      },
+      "shift_start": "10:00",
+      "shift_end": "22:00",
+      "skills": [
+        "local_works",
+        "connection_and_orders"
+      ],
+      "vehicle_type": "car",
+      "available": true
+    },
+    {
+      "id": "каушнян",
+      "name": "Каушнян (бригада)",
+      "start_address": "База Южнопортовый",
+      "start_coordinates": {
+        "lat": 55.728739,
+        "lon": 37.672561
+      },
+      "shift_start": "10:00",
+      "shift_end": "22:00",
+      "skills": [
+        "local_works",
+        "connection_and_orders",
+        "emergency_works"
+      ],
+      "vehicle_type": "car",
+      "available": true
+    },
+    {
+      "id": "зверев",
+      "name": "Зверев (бригада)",
+      "start_address": "База Таганский Восток",
+      "start_coordinates": {
+        "lat": 55.743513,
+        "lon": 37.666471
+      },
+      "shift_start": "10:00",
+      "shift_end": "22:00",
+      "skills": [
+        "local_works",
+        "connection_and_orders"
+      ],
+      "vehicle_type": "car",
+      "available": true
+    },
+    {
+      "id": "перов",
+      "name": "Перов (бригада)",
+      "start_address": "База Лефортово",
+      "start_coordinates": {
+        "lat": 55.7595,
+        "lon": 37.7045
+      },
+      "shift_start": "10:00",
+      "shift_end": "22:00",
+      "skills": [
+        "local_works",
+        "connection_and_orders"
+      ],
+      "vehicle_type": "car",
+      "available": true
+    },
+    {
+      "id": "белузин",
+      "name": "Белузин (бригада)",
+      "start_address": "База Выхино",
+      "start_coordinates": {
+        "lat": 55.700579,
+        "lon": 37.813217
+      },
+      "shift_start": "10:00",
+      "shift_end": "22:00",
+      "skills": [
+        "local_works",
+        "connection_and_orders"
+      ],
+      "vehicle_type": "car",
+      "available": true
+    },
+    {
+      "id": "гусаковский",
+      "name": "Гусаковский (бригада)",
+      "start_address": "База Нижегородский",
+      "start_coordinates": {
+        "lat": 55.733152,
+        "lon": 37.750472
+      },
+      "shift_start": "10:00",
+      "shift_end": "22:00",
+      "skills": [
+        "local_works",
+        "connection_and_orders"
+      ],
+      "vehicle_type": "car",
+      "available": true
+    },
+    {
+      "id": "свеженцев",
+      "name": "Свеженцев (бригада)",
+      "start_address": "База Басманный",
+      "start_coordinates": {
+        "lat": 55.763415,
+        "lon": 37.650995
+      },
+      "shift_start": "10:00",
+      "shift_end": "22:00",
+      "skills": [
+        "local_works",
+        "connection_and_orders",
+        "emergency_works"
+      ],
+      "vehicle_type": "car",
+      "available": true
+    }
+  ],
+  "requests": [
+    {
+      "id": "305927238",
+      "title": "Конвергенция FMC",
+      "address": "пр-кт.Волгоградский, д. 128 к 5, кв. 1",
+      "coordinates": {
+        "lat": 55.702338,
+        "lon": 37.782875
+      },
+      "duration_minutes": 70,
+      "window_start": "20:00",
+      "window_end": "22:00",
+      "priority": "normal",
+      "required_skill": "connection_and_orders",
+      "required_vehicle_type": "car",
+      "meta": {
+        "status_bk": "Не отправлена",
+        "type_bk": "Подключение",
+        "type_hd": "Конвергенция абонента",
+        "district": "Кузьминки",
+        "brigade_hint": null,
+        "connection": "FMC",
+        "gigabit": false,
+        "geocode_display": "128 к1, Волгоградский проспект (дублёр), район Кузьминки, Москва, Центральный федеральный округ, 109",
+        "geocode_source": "Nominatim/OSM"
+      }
+    },
+    {
+      "id": "305838184",
+      "title": "Конвергенция FMC",
+      "address": "пер.Маяковского, д. 2, кв. 59",
+      "coordinates": {
+        "lat": 55.739774,
+        "lon": 37.659908
+      },
+      "duration_minutes": 70,
+      "window_start": "18:00",
+      "window_end": "20:00",
+      "priority": "normal",
+      "required_skill": "connection_and_orders",
+      "required_vehicle_type": "car",
+      "meta": {
+        "status_bk": "Отправлена",
+        "type_bk": "Подключение",
+        "type_hd": "Конвергенция абонента",
+        "district": "Таганский",
+        "brigade_hint": "Бригада Соколов",
+        "connection": "FMC",
+        "gigabit": false,
+        "geocode_display": "2, переулок Маяковского, Таганский район, Москва, Центральный федеральный округ, 109147, Россия",
+        "geocode_source": "Nominatim/OSM"
+      }
+    },
+    {
+      "id": "305857695",
+      "title": "Подключение",
+      "address": "ул.Грайвороновская, д. 10 к 2, кв. 71",
+      "coordinates": {
+        "lat": 55.719042,
+        "lon": 37.73005
+      },
+      "duration_minutes": 90,
+      "window_start": "18:00",
+      "window_end": "20:00",
+      "priority": "normal",
+      "required_skill": "connection_and_orders",
+      "required_vehicle_type": "car",
+      "meta": {
+        "status_bk": "Отправлена",
+        "type_bk": "Подключение",
+        "type_hd": "Заявка на подключение",
+        "district": "Текстильщики",
+        "brigade_hint": "Бригада Мельников",
+        "connection": null,
+        "gigabit": true,
+        "geocode_display": "10, Грайвороновская улица, район Текстильщики, Москва, Центральный федеральный округ, 109518, Россия",
+        "geocode_source": "Nominatim/OSM"
+      }
+    },
+    {
+      "id": "305849742",
+      "title": "Конвергенция FMC",
+      "address": "ул.Михайлова, д. 14, кв. 13",
+      "coordinates": {
+        "lat": 55.72703,
+        "lon": 37.76596
+      },
+      "duration_minutes": 70,
+      "window_start": "20:00",
+      "window_end": "22:00",
+      "priority": "normal",
+      "required_skill": "connection_and_orders",
+      "required_vehicle_type": "car",
+      "meta": {
+        "status_bk": "Отправлена",
+        "type_bk": "Подключение",
+        "type_hd": "Конвергенция абонента",
+        "district": "Рязанский",
+        "brigade_hint": "Бригада Матвеев",
+        "connection": "FMC",
+        "gigabit": false,
+        "geocode_display": "14, улица Михайлова, Рязанский район, Москва, Центральный федеральный округ, 109428, Россия",
+        "geocode_source": "Nominatim/OSM"
+      }
+    },
+    {
+      "id": "305886764",
+      "title": "Конвергенция FMC",
+      "address": "ул.3-я Институтская, д. 5 к 2, кв. 36",
+      "coordinates": {
+        "lat": 55.721992,
+        "lon": 37.78219
+      },
+      "duration_minutes": 70,
+      "window_start": "18:00",
+      "window_end": "20:00",
+      "priority": "normal",
+      "required_skill": "connection_and_orders",
+      "required_vehicle_type": "car",
+      "meta": {
+        "status_bk": "Отправлена",
+        "type_bk": "Подключение",
+        "type_hd": "Конвергенция абонента",
+        "district": "Рязанский",
+        "brigade_hint": "Бригада Матвеев",
+        "connection": "FMC",
+        "gigabit": false,
+        "geocode_display": "5 к2, 3-я Институтская улица, Рязанский район, Москва, Центральный федеральный округ, 109456, Россия",
+        "geocode_source": "Nominatim/OSM"
+      }
+    },
+    {
+      "id": "305893375",
+      "title": "Конвергенция FMC",
+      "address": "ул.1-я Новокузьминская, д. 16 к 1, кв. 11",
+      "coordinates": {
+        "lat": 55.714359,
+        "lon": 37.789796
+      },
+      "duration_minutes": 70,
+      "window_start": "18:00",
+      "window_end": "20:00",
+      "priority": "normal",
+      "required_skill": "connection_and_orders",
+      "required_vehicle_type": "car",
+      "meta": {
+        "status_bk": "Отправлена",
+        "type_bk": "Подключение",
+        "type_hd": "Конвергенция абонента",
+        "district": "Рязанский",
+        "brigade_hint": "Бригада Матвеев",
+        "connection": "FMC",
+        "gigabit": false,
+        "geocode_display": "16 к1, 1-я Новокузьминская улица, Рязанский район, Москва, Центральный федеральный округ, 109377, Ро",
+        "geocode_source": "Nominatim/OSM"
+      }
+    },
+    {
+      "id": "305738126",
+      "title": "Конвергенция FMC",
+      "address": "ул.Окская, д. 32, кв. 42",
+      "coordinates": {
+        "lat": 55.714471,
+        "lon": 37.769522
+      },
+      "duration_minutes": 70,
+      "window_start": "20:00",
+      "window_end": "22:00",
+      "priority": "normal",
+      "required_skill": "connection_and_orders",
+      "required_vehicle_type": "car",
+      "meta": {
+        "status_bk": "Отправлена",
+        "type_bk": "Подключение",
+        "type_hd": "Конвергенция абонента",
+        "district": "Кузьминки",
+        "brigade_hint": "Бригада Попов",
+        "connection": "FMC",
+        "gigabit": false,
+        "geocode_display": "32, Окская улица, район Кузьминки, Москва, Центральный федеральный округ, 109457, Россия",
+        "geocode_source": "Nominatim/OSM"
+      }
+    },
+    {
+      "id": "305821472",
+      "title": "Конвергенция FMC",
+      "address": "ул.Юных Ленинцев, д. 84, кв. 13",
+      "coordinates": {
+        "lat": 55.698118,
+        "lon": 37.778604
+      },
+      "duration_minutes": 70,
+      "window_start": "16:00",
+      "window_end": "18:00",
+      "priority": "normal",
+      "required_skill": "connection_and_orders",
+      "required_vehicle_type": "car",
+      "meta": {
+        "status_bk": "В пути",
+        "type_bk": "Подключение",
+        "type_hd": "Конвергенция абонента",
+        "district": "Кузьминки",
+        "brigade_hint": "Бригада Арташкин",
+        "connection": "FMC",
+        "gigabit": false,
+        "geocode_display": "84, улица Юных Ленинцев, район Кузьминки, Москва, Центральный федеральный округ, 109439, Россия",
+        "geocode_source": "Nominatim/OSM"
+      }
+    },
+    {
+      "id": "305866236",
+      "title": "Конвергенция FMC",
+      "address": "ул.1-я Дубровская, д. 6, кв. 41",
+      "coordinates": {
+        "lat": 55.726739,
+        "lon": 37.669561
+      },
+      "duration_minutes": 70,
+      "window_start": "14:00",
+      "window_end": "16:00",
+      "priority": "normal",
+      "required_skill": "connection_and_orders",
+      "required_vehicle_type": "car",
+      "meta": {
+        "status_bk": "В работе",
+        "type_bk": "Подключение",
+        "type_hd": "Конвергенция абонента",
+        "district": "Южнопортовый",
+        "brigade_hint": "Бригада Каушнян",
+        "connection": "FMC",
+        "gigabit": false,
+        "geocode_display": "6, 1-я Дубровская улица, Южнопортовый район, Москва, Центральный федеральный округ, 121357, Россия",
+        "geocode_source": "Nominatim/OSM"
+      }
+    },
+    {
+      "id": "305534517",
+      "title": "Конвергенция FMC",
+      "address": "ул.Артюхиной, д. 16, кв. 43",
+      "coordinates": {
+        "lat": 55.698497,
+        "lon": 37.7378
+      },
+      "duration_minutes": 70,
+      "window_start": "12:00",
+      "window_end": "14:00",
+      "priority": "urgent",
+      "required_skill": "connection_and_orders",
+      "required_vehicle_type": "car",
+      "meta": {
+        "status_bk": "Просрочена",
+        "type_bk": "Подключение",
+        "type_hd": "Конвергенция абонента",
+        "district": "Текстильщики",
+        "brigade_hint": "Бригада Мельников",
+        "connection": "FMC",
+        "gigabit": false,
+        "geocode_display": "16, улица Артюхиной, район Текстильщики, Москва, Центральный федеральный округ, 109390, Россия",
+        "geocode_source": "Nominatim/OSM"
+      }
+    },
+    {
+      "id": "305825274",
+      "title": "Конвергенция FMC",
+      "address": "ул.3-я Карачаровская, д. 4 к 1, кв. 98",
+      "coordinates": {
+        "lat": 55.733218,
+        "lon": 37.745014
+      },
+      "duration_minutes": 70,
+      "window_start": "14:00",
+      "window_end": "16:00",
+      "priority": "urgent",
+      "required_skill": "connection_and_orders",
+      "required_vehicle_type": "car",
+      "meta": {
+        "status_bk": "Просрочена",
+        "type_bk": "Подключение",
+        "type_hd": "Конвергенция абонента",
+        "district": "Нижегородский",
+        "brigade_hint": "Бригада Матвеев",
+        "connection": "FMC",
+        "gigabit": false,
+        "geocode_display": "4 к2, 3-я Карачаровская улица, Карачарово, Нижегородский район, Москва, Центральный федеральный окру",
+        "geocode_source": "Nominatim/OSM"
+      }
+    },
+    {
+      "id": "305889650",
+      "title": "Конвергенция FMC",
+      "address": "пр-кт.Рязанский, д. 73, кв. 13",
+      "coordinates": {
+        "lat": 55.718455,
+        "lon": 37.790255
+      },
+      "duration_minutes": 70,
+      "window_start": "12:00",
+      "window_end": "14:00",
+      "priority": "urgent",
+      "required_skill": "connection_and_orders",
+      "required_vehicle_type": "car",
+      "meta": {
+        "status_bk": "Просрочена",
+        "type_bk": "Подключение",
+        "type_hd": "Конвергенция абонента",
+        "district": "Рязанский",
+        "brigade_hint": "Бригада Каушнян",
+        "connection": "FMC",
+        "gigabit": false,
+        "geocode_display": "73, Рязанский проспект, Рязанский район, Москва, Центральный федеральный округ, 109456, Россия",
+        "geocode_source": "Nominatim/OSM"
+      }
+    },
+    {
+      "id": "305929608",
+      "title": "Дозаказ оборудования",
+      "address": "ул.Ферганская, д. 28/7, кв. 244",
+      "coordinates": {
+        "lat": 55.701078,
+        "lon": 37.82501
+      },
+      "duration_minutes": 50,
+      "window_start": "18:00",
+      "window_end": "20:00",
+      "priority": "normal",
+      "required_skill": "connection_and_orders",
+      "required_vehicle_type": "car",
+      "meta": {
+        "status_bk": "Не отправлена",
+        "type_bk": "Дозаказ",
+        "type_hd": "Дозаказ оборудования",
+        "district": "Выхино",
+        "brigade_hint": null,
+        "connection": "FMC",
+        "gigabit": false,
+        "geocode_display": "28/7, Ферганская улица, район Выхино-Жулебино, Москва, Центральный федеральный округ, 109507, Россия",
+        "geocode_source": "Nominatim/OSM"
+      }
+    },
+    {
+      "id": "305799343",
+      "title": "Дозаказ оборудования",
+      "address": "б-р.Самаркандский Квартал 137а, д. к5, кв. 25",
+      "coordinates": {
+        "lat": 55.697579,
+        "lon": 37.816217
+      },
+      "duration_minutes": 50,
+      "window_start": "20:00",
+      "window_end": "22:00",
+      "priority": "normal",
+      "required_skill": "connection_and_orders",
+      "required_vehicle_type": "car",
+      "meta": {
+        "status_bk": "Отправлена",
+        "type_bk": "Дозаказ",
+        "type_hd": "Дозаказ оборудования",
+        "district": "Выхино",
+        "brigade_hint": "Бригада Белузин",
+        "connection": "FMC",
+        "gigabit": false,
+        "geocode_display": "Самаркандский бульвар, район Выхино-Жулебино, Москва, Центральный федеральный округ, 109507, Россия",
+        "geocode_source": "Nominatim/OSM"
+      }
+    },
+    {
+      "id": "305549935",
+      "title": "Дозаказ оборудования",
+      "address": "проезд Орехово-Зуевский, д. 18/8, кв. 30",
+      "coordinates": {
+        "lat": 55.731152,
+        "lon": 37.753472
+      },
+      "duration_minutes": 50,
+      "window_start": "10:00",
+      "window_end": "12:00",
+      "priority": "urgent",
+      "required_skill": "connection_and_orders",
+      "required_vehicle_type": "car",
+      "meta": {
+        "status_bk": "Просрочена",
+        "type_bk": "Дозаказ",
+        "type_hd": "Дозаказ оборудования",
+        "district": "Нижегородский",
+        "brigade_hint": "Бригада Гусаковский",
+        "connection": "FMC",
+        "gigabit": false,
+        "geocode_display": "18/8, Орехово-Зуевский проезд, Карачарово, Нижегородский район, Москва, Центральный федеральный окру",
+        "geocode_source": "Nominatim/OSM"
+      }
+    },
+    {
+      "id": "305898233",
+      "title": "Нет линка",
+      "address": "пер.Большой Рогожский, д. 10 к 2, кв. 73",
+      "coordinates": {
+        "lat": 55.742513,
+        "lon": 37.668471
+      },
+      "duration_minutes": 45,
+      "window_start": "18:00",
+      "window_end": "20:00",
+      "priority": "normal",
+      "required_skill": "local_works",
+      "required_vehicle_type": null,
+      "meta": {
+        "status_bk": "Отправлена",
+        "type_bk": "Локальная заявка",
+        "type_hd": "Нет линка",
+        "district": "Таганский",
+        "brigade_hint": "Бригада Соколов",
+        "connection": null,
+        "gigabit": false,
+        "geocode_display": "10 к1, Большой Рогожский переулок, Таганский район, Москва, Центральный федеральный округ, 109147, Р",
+        "geocode_source": "Nominatim/OSM"
+      }
+    },
+    {
+      "id": "305896864",
+      "title": "Нет линка",
+      "address": "ул.Машкова, д. 13 стр. 1, кв. 15",
+      "coordinates": {
+        "lat": 55.762415,
+        "lon": 37.648995
+      },
+      "duration_minutes": 45,
+      "window_start": "20:00",
+      "window_end": "22:00",
+      "priority": "normal",
+      "required_skill": "local_works",
+      "required_vehicle_type": null,
+      "meta": {
+        "status_bk": "Отправлена",
+        "type_bk": "Локальная заявка",
+        "type_hd": "Нет линка",
+        "district": "Басманный",
+        "brigade_hint": "Бригада Свеженцев",
+        "connection": null,
+        "gigabit": false,
+        "geocode_display": "2/13, улица Машкова, Бауманка, Басманный район, Москва, Центральный федеральный округ, 105062, Росси",
+        "geocode_source": "Nominatim/OSM"
+      }
+    },
+    {
+      "id": "305868415",
+      "title": "Переключение на Гбит",
+      "address": "ул.11-я Текстильщиков, д. 10, кв. 103",
+      "coordinates": {
+        "lat": 55.706885,
+        "lon": 37.743199
+      },
+      "duration_minutes": 55,
+      "window_start": "18:00",
+      "window_end": "20:00",
+      "priority": "normal",
+      "required_skill": "local_works",
+      "required_vehicle_type": null,
+      "meta": {
+        "status_bk": "Отправлена",
+        "type_bk": "Локальная заявка",
+        "type_hd": "Переключение на Гбит/с",
+        "district": "Текстильщики",
+        "brigade_hint": "Бригада Комарь",
+        "connection": null,
+        "gigabit": false,
+        "geocode_display": "10, 11-я улица Текстильщиков, район Текстильщики, Москва, Центральный федеральный округ, 109129, Рос",
+        "geocode_source": "Nominatim/OSM"
+      }
+    },
+    {
+      "id": "305910361",
+      "title": "Нет линка",
+      "address": "ул.Паперника, д. 18, кв. 33",
+      "coordinates": {
+        "lat": 55.721323,
+        "lon": 37.793512
+      },
+      "duration_minutes": 45,
+      "window_start": "18:00",
+      "window_end": "20:00",
+      "priority": "normal",
+      "required_skill": "local_works",
+      "required_vehicle_type": null,
+      "meta": {
+        "status_bk": "В пути",
+        "type_bk": "Локальная заявка",
+        "type_hd": "Нет линка",
+        "district": "Рязанский",
+        "brigade_hint": "Бригада Матвеев",
+        "connection": null,
+        "gigabit": false,
+        "geocode_display": "18, улица Паперника, Рязанский район, Москва, Центральный федеральный округ, 109456, Россия",
+        "geocode_source": "Nominatim/OSM"
+      }
+    },
+    {
+      "id": "305911691",
+      "title": "Нет линка",
+      "address": "ул.Большая Калитниковская, д. 38, кв. 29",
+      "coordinates": {
+        "lat": 55.736168,
+        "lon": 37.686206
+      },
+      "duration_minutes": 45,
+      "window_start": "18:00",
+      "window_end": "20:00",
+      "priority": "normal",
+      "required_skill": "local_works",
+      "required_vehicle_type": null,
+      "meta": {
+        "status_bk": "В работе",
+        "type_bk": "Локальная заявка",
+        "type_hd": "Нет линка",
+        "district": "Таганский",
+        "brigade_hint": "Бригада Соколов",
+        "connection": null,
+        "gigabit": false,
+        "geocode_display": "38, Большая Калитниковская улица, Таганский район, Москва, Центральный федеральный округ, 109029, Ро",
+        "geocode_source": "Nominatim/OSM"
+      }
+    },
+    {
+      "id": "305817137",
+      "title": "Переключение на Гбит",
+      "address": "б-р.Самаркандский Квартал 137а, д. к5, кв. 25",
+      "coordinates": {
+        "lat": 55.697579,
+        "lon": 37.816217
+      },
+      "duration_minutes": 55,
+      "window_start": "20:00",
+      "window_end": "22:00",
+      "priority": "normal",
+      "required_skill": "local_works",
+      "required_vehicle_type": null,
+      "meta": {
+        "status_bk": "В работе",
+        "type_bk": "Локальная заявка",
+        "type_hd": "Переключение на Гбит/с",
+        "district": "Выхино",
+        "brigade_hint": "Бригада Белузин",
+        "connection": null,
+        "gigabit": false,
+        "geocode_display": "Самаркандский бульвар, район Выхино-Жулебино, Москва, Центральный федеральный округ, 109507, Россия",
+        "geocode_source": "Nominatim/OSM"
+      }
+    },
+    {
+      "id": "305392043",
+      "title": "Мониторинг",
+      "address": "ул.Маршала Чуйкова, д. 9 к 2, кв. 27",
+      "coordinates": {
+        "lat": 55.697144,
+        "lon": 37.762011
+      },
+      "duration_minutes": 40,
+      "window_start": "18:00",
+      "window_end": "20:00",
+      "priority": "normal",
+      "required_skill": "local_works",
+      "required_vehicle_type": null,
+      "meta": {
+        "status_bk": "В работе",
+        "type_bk": "Локальная заявка",
+        "type_hd": "Мониторинг",
+        "district": "Кузьминки",
+        "brigade_hint": "Бригада Попов",
+        "connection": null,
+        "gigabit": false,
+        "geocode_display": "9 к2, улица Маршала Чуйкова, район Кузьминки, Москва, Центральный федеральный округ, 109462, Россия",
+        "geocode_source": "Nominatim/OSM"
+      }
+    },
+    {
+      "id": "305898346",
+      "title": "Глобальная: информация",
+      "address": "б-р.Самаркандский, д. 32к1",
+      "coordinates": {
+        "lat": 55.697703,
+        "lon": 37.812685
+      },
+      "duration_minutes": 45,
+      "window_start": "16:00",
+      "window_end": "18:00",
+      "priority": "normal",
+      "required_skill": "local_works",
+      "required_vehicle_type": null,
+      "meta": {
+        "status_bk": "Отправлена",
+        "type_bk": "Глобальная проблема",
+        "type_hd": "Информация",
+        "district": "Выхино",
+        "brigade_hint": "Бригада Белузин",
+        "connection": null,
+        "gigabit": false,
+        "geocode_display": "32 к1, Самаркандский бульвар, район Выхино-Жулебино, Москва, Центральный федеральный округ, 109507, ",
+        "geocode_source": "Nominatim/OSM"
+      }
+    },
+    {
+      "id": "305898353",
+      "title": "Глобальная: информация",
+      "address": "б-р.Самаркандский, д. 10к2",
+      "coordinates": {
+        "lat": 55.706487,
+        "lon": 37.826313
+      },
+      "duration_minutes": 45,
+      "window_start": "16:00",
+      "window_end": "18:00",
+      "priority": "normal",
+      "required_skill": "local_works",
+      "required_vehicle_type": null,
+      "meta": {
+        "status_bk": "Отправлена",
+        "type_bk": "Глобальная проблема",
+        "type_hd": "Информация",
+        "district": "Выхино",
+        "brigade_hint": "Бригада Белузин",
+        "connection": null,
+        "gigabit": false,
+        "geocode_display": "10 к2, Самаркандский бульвар, район Выхино-Жулебино, Москва, Центральный федеральный округ, 109507, ",
+        "geocode_source": "Nominatim/OSM"
+      }
+    }
+  ]
+}
