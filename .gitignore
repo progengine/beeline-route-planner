@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Данные (создаются автоматически)
+data/coords.json
+data/distance_matrix.npy
+*.npy
+
+# Логи
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
